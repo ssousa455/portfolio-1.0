@@ -1,0 +1,141 @@
+/* Estilos para tags HTML basicas */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #ccc;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#sobre {
+  padding: 40px;
+  background-color: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+#projetos {
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.projeto {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  max-width: 200px;
+}
+
+.projeto h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.projeto p {
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 40px;
+  background-color: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form input,
+form textarea {
+  border: 2px solid #333;
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+#projetos .projeto {
+		transition: all 0.3s ease-out;
+	}
+	#projetos .projeto:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+
+	body {
+		background-color: #f7f7f7;
+		color: #333;
+	}
+	header nav ul li a {
+		color: #555;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
